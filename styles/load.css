@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Varela');
+/*------------------------------------*\
+    Logo
+\*------------------------------------*/
+
+.logo-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#bolt_shadow {
+    position: absolute;
+    fill: #212121;
+    stroke: #212121;
+    stroke-width: 110px;
+    left: 2px;
+    top: 0px;
+    overflow: initial;
+}
+#bolt_svg, #cog_svg{
+    position: absolute;
+    left: -16px;
+    width: 135%;
+}
+.logo_svg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index:0;
+    overflow: hidden;
+}
+#cog_svg{
+    width: 80%;
+    left: 10%;
+}
+#bolt_path {
+    fill: #FFFFFF;
+    text-shadow: 2px 2px 500px rgba(0,0,0,0.5);
+    z-index:2;
+}
+#cog_path {
+    fill: #FFFFFF;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    display: block;
+    right: 20px;
+    z-index: 2;
+    transition: 0.3s;
+}
+.logo a {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+/*------------------------------------*\
+    Loading Screen
+\*------------------------------------*/
+    .loading-screen {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 1000;
+    }
+    .loading-background{
+        position: absolute;
+        width: 300%;
+        height: 300%;
+        top: 0;
+        right: 0;
+        background:linear-gradient(120deg,white,black);
+        animation: slideIn 0.3s ease-out;
+        
+    }
+    .logo-loading{
+        transition: 3s;
+        transform: scale(1);
+        animation: scaleIn 0.3s ease-In;
+    }
+    .particle-container {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        z-index: 1001;
+    }
+    .particle-line{
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        background: #ffffff;
+        left: -100%;
+        top: 0;
+        transition: 0.5s;
+        opacity: 1;
+    }
+  
+    .no-js h1 {
+        color: #222222;
+    }
+    .smooth_rotation{
+        -webkit-animation: rotating 10s linear infinite;
+        -moz-animation: rotating 10s linear infinite;
+        -ms-animation: rotating 10s linear infinite;
+        -o-animation: rotating 10s linear infinite;
+        animation: rotating 10s linear infinite;
+    }
+    .particle-line{
+        animation: Zoom 2s cubic-bezier(0.645, 0.045, 0.355, 1.000) infinite;
+    }
+    .loaded .logo-loading{
+        animation: scaleOut 0.2s ease-out;
+    }
+    .loaded .logo-container{
+        opacity: 0;
+    }
+    .loaded .particle-container{
+        animation: fadeOut 1s ease-out;
+        opacity: 0;
+    }
+    .loaded .loading-background{
+        animation: slideOut 0.3s ease-In;
+        top: 100%;
+        right: 100%;
+    }
+/*------------------------------------*\
+    Animations
+\*------------------------------------*/
+@keyframes slideIn{
+  from {
+    top: -100%;
+    right: -100%;
+  }
+  to {
+    top: 0;
+    right: 0;
+    }
+}
+@keyframes slideOut {
+  from {
+    top: 0;
+    right: 0;
+  }
+  to {
+    top: 100%;
+    right: 100%;
+    }
+}
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes fadeOut{
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes scaleIn{
+  from {
+    transform: scale(0.2);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+@keyframes scaleOut{
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.2);
+  }
+}
+@keyframes Zoom {
+  from {
+    transform: translate(0) scale(0.2);
+  }
+  to {
+    transform: translateX(200%) scale(0);
+  }
+}
+/*------------------------------------*\
+    Header
+\*------------------------------------*/
+.particles{
+    transform: rotate(135deg);
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.loading-text{
+    font-family: sans-serif;
+    font-weight: 100;
+    color: white;
+    z-index: 1002;
+}

@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=no">    
+    <title>YBOOK</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/load.css">
+    <link rel="stylesheet" href="load.js">
+    <link rel="stylesheet" href="/styles/card-hover-footer.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+<body id="container-fluid">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <div class="loading-screen">
+        <div class="logo-container">       
+            <div class="logo logo-loading">
+                    <a href="http://stormworks.co.uk/">
+                    <div class="logo_svg">							
+                        <svg id="cog_svg" class="smooth_rotation" version="1.1" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 593.7 591.9" style="enable-background:new 0 0 593.7 591.9;" xml:space="preserve">					
+                        <path id="cog_path" class="st0" d="M588.7,353.6c2.6-13.7,4.3-27.7,5-42l-46.9-14.8c0-14.6-1.3-29-3.7-42.9l43.2-24.4
+                        c-3.2-13.6-7.3-26.9-12.3-39.7l-48.8,5.6c-6.1-13.6-13.4-26.6-21.7-38.9l29.5-39.8c-8.3-10.9-17.4-21.1-27.1-30.7l-42.4,25
+                        c-11.3-10.1-23.6-19.3-36.6-27.2l10.7-48.3c-11.8-6.4-24.1-12-36.9-16.7l-28.6,40.1c-14.6-4.6-29.7-7.9-45.3-9.7L317,0.7
+                        C310.4,0.2,303.6,0,296.9,0s-13.5,0.2-20.2,0.7L266.9,49c-15.6,1.9-30.7,5.1-45.3,9.7L193,18.7c-12.7,4.7-25,10.3-36.9,16.7
+                        l10.7,48.3c-13,8-25.3,17.1-36.6,27.2l-42.4-25c-9.7,9.6-18.7,19.9-27.1,30.7l29.5,39.8c-8.3,12.2-15.6,25.2-21.7,38.9l-48.8-5.6
+                        c-5,12.8-9.1,26.1-12.3,39.7l43.2,24.4c-2.4,13.9-3.7,28.3-3.7,42.9L0,311.6c0.7,14.3,2.4,28.3,5,42l49.4,4.8
+                        c3.4,13.6,7.9,26.7,13.5,39.3l-36.8,32.6c6.5,12.9,13.8,25.2,22,37l47.1-15.7c8.3,10.6,17.4,20.4,27.3,29.5L107,525.9
+                        c11.2,9.3,23,17.8,35.5,25.3l36.6-33.5c11.5,6.2,23.6,11.5,36.1,15.8l-0.4,49.4c13.9,4,28.3,7,43,8.9l19.7-45.4
+                        c6.4,0.5,12.9,0.8,19.5,0.8s13.1-0.3,19.5-0.8l19.7,45.4c14.7-1.9,29-4.9,43-8.9l-0.4-49.4c12.5-4.3,24.6-9.6,36.1-15.8l36.6,33.5
+                        c12.5-7.6,24.3-16.1,35.5-25.3L466.3,481c9.9-9.1,19-19,27.3-29.5l47.1,15.7c8.2-11.7,15.6-24.1,22-37l-36.8-32.6
+                        c5.5-12.6,10.1-25.7,13.5-39.3L588.7,353.6z M296.9,522.2c-124.3,0-225-100.7-225-225s100.7-225,225-225s225,100.7,225,225
+                        S421.1,522.2,296.9,522.2z"></path>
+                        </svg>
+                        <svg id="bolt_shadow" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 463.1 757.7" style="enable-background:new 0 0 463.1 757.7;" xml:space="preserve">	 	
+                        <polygon id="bolt_path" class="bolt_path" points="30.5,441.7 293.1,389.2 0,757.7 463.1,280.2 172.1,351.9 378.6,0"></polygon>	
+                        </svg>
+                        <svg id="bolt_svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 463.1 757.7" style="enable-background:new 0 0 463.1 757.7;" xml:space="preserve">	 	
+                        <polygon id="bolt_path" class="bolt_path" points="30.5,441.7 293.1,389.2 0,757.7 463.1,280.2 172.1,351.9 378.6,0"></polygon><image class="img-logo" src="/wp-content/themes/stormworks2016/img/StormWorksLogo.png" xlink:href=""></image></svg>
+                    </div>
+                    </a>						
+</div>
+            <h3 class="loading-text">Loading</h3>
+        </div>
+        <div class="particle-container">
+            <div class="particles"></div>
+        </div>
+        <div class="loading-background"></div>
+    </div> 
+<script>
+    $(document).ready(function() 
+    {
+        setTimeout(function(){
+        $(".loading-screen").fadeOut("slow");
+        }, 1000);
+    });
+</script>
+                <div class="col-0 col-sm-0 col-md-0"></div>
+                <div class="col-12 col-sm-12 col-md-10 " id="container">                
+                        <header  class ="row">
+                        <div class ="col-1 col-sm-1 col-md-1" id="logo"><a href="#"><img src="images/y-logo.png" /></a></div>
+                        <nav class ="col-11 col-sm-11 col-md-11" style="width:auto;" >
+                            <ul id="hmenu">
+                            <li class ="SmartImg nav-item " id="contact-tab"><a href="/templates/contact.html"><img src="images/phone-book.png" /> Contact</a></li>
+                            <li class="devider">&nbsp;</li>
+                            <li class ="SmartImg nav-item "><a href="#"><img src="images/computer.png" /> Home</a></li>
+                            <li class="devider">&nbsp;</li>
+                            <li class ="SmartImg nav-item "><a href="#"><img src="images/customer.png" /> Service</a></li>
+                            <li class="devider">&nbsp;</li>
+                            <li class ="SmartImg nav-item "><a href="#"><img src="images/airplane.png" /> Giao hàng</a></li>
+                            <li class="devider">&nbsp;</li>
+                            <li class ="SmartImg nav-item "><a href="#"><img src="images/settings.png" /> Setting</a></li>
+                            <li class="devider">&nbsp;</li>
+                            <li class ="SmartImg nav-item nav_button"><a href="#"><img src="images/user.png" /> Login</a><li>
+                            <li class="devider">&nbsp;</li>
+                            <li class ="SmartImg nav-item nav_button"><a href="#"><img src="images/logout.png" /> Log-out</a></li>
+                            
+                        </ul>
+                    </nav>
+                    </header>
+                    <div id="content" >
+                    <div class="row BodyArea ">
+                        <div class="col" style="margin-left:20px;">
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-md-3 big_box_mid" style ="width:300px;">
+                                    <img src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_36793.jpg" alt="">
+        
+                                        <div class="center">
+                                          <h1 class="blue_text">Nhà Giả Kim<br></h1> <br><br><br><br>
+                                          <span class="red_text">55.000 đ &nbsp; <sub> -30%</sub></span>
+                                          <p><del>79.000 đ</del></p>
+                                          <p class="gold_text">4.9
+                                              <img style="width: 10px; height:10px;" src="/images/star.png" alt="">
+                                              <span class="normal_text">(37)</span>
+                                            </p>
+                                          <button type="submit" class="btn-submit-2 color-2">Buy</button>
+                                        </div>
+                                </div>     
+                                <div class="col-12 col-sm-6 col-md-3 big_box_mid" style ="width:300px;">
+                                    <img src="https://cdn0.fahasa.com/media/catalog/product/6/0/600ra-bo-suoi---bm_1.jpg" alt="">
+        
+                                        <div class="center">
+                                          <h1 class="blue_text">Ra Bờ Suối Ngắm Hoa Kèn Hồng<br></h1>
+                                          <span class="red_text">116.000 đ &nbsp; <sub> -20%</sub></span>
+                                          <p><del>145.000 đ</del></p>
+                                          <p class="gold_text">0.0
+                                              <img style="width: 10px; height:10px;" src="/images/star.png" alt="">
+                                              <span class="normal_text">(0)</span>
+                                            </p>
+                                          <button type="submit" class="btn-submit-2 color-2">Buy</button>
+                                        </div>
+                                </div> 
+                                <div class="col-12 col-sm-6 col-md-3 big_box_mid" style ="width:300px;">
+                                    <img src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_180164_1_43_1_57_1_4_1_2_1_210_1_29_1_98_1_25_1_21_1_5_1_3_1_18_1_18_1_45_1_26_1_32_1_14_1_1233.jpg" alt="">
+        
+                                        <div class="center">
+                                          <h1 class="blue_text">Cho Tôi Xin Một Vé Đi Tuổi Thơ<br></h1>
+                                          <span class="red_text">56.000 đ &nbsp; <sub> -30%</sub></span>
+                                          <p><del>80.000 đ</del> </p>
+                                          <p class="gold_text">4.9
+                                              <img style="width: 10px; height:10px;" src="/images/star.png" alt="">
+                                              <span class="normal_text">(79)</span>
+                                            </p>
+                                          
+                                          <button type="submit" class="btn-submit-2 color-2">Buy</button>
+                                        </div>
+                                </div> 
+                                <div class="col-12 col-sm-6 col-md-3 big_box_mid" style ="width:300px;">
+                                    <img src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_240307.jpg" alt="">
+        
+                                        <div class="center">
+                                          <h1 class="blue_text">Rừng Nauy<br></h1><br><br><br><br>
+                                          <span class="red_text">120.000 đ &nbsp; <sub> -20%</sub></span>
+                                          <p><del>150.000 đ</del></p>
+                                          <p class="gold_text">4.4
+                                              <img style="width: 10px; height:10px;" src="/images/star.png" alt="">
+                                              <span class="normal_text">(0)</span>
+                                            </p>
+                                          <button type="submit" class="btn-submit-2 color-2">Buy</button>
+                                        </div>
+                                </div> 
+                           
+                        </div>
+                        <div class="col" >
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-md-3 big_box_mid" style ="width:300px;">
+                                    <img src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_18448.jpg" alt="">
+        
+                                        <div class="center">
+                                          <h1 class="blue_text">Rèn Luyện Tư Duy Phản Biện<br></h1>
+                                          <br><br><br>  <br>
+                                          <span class="red_text">79.000 đ &nbsp; <sub> -20%</sub></span>
+                                          <p><del>99.000 đ</del></p>
+                                          <p class="gold_text">50
+                                              <img style="width: 10px; height:10px;" src="/images/star.png" alt="">
+                                              <span class="normal_text">(1)</span>
+                                            </p>
+                                          <button type="submit" class="btn-submit-2 color-2">Buy</button>
+                                        </div>
+                                </div> 
+                                <div class="col-12 col-sm-6 col-md-3 big_box_mid" style ="width:300px;">
+                                    <img src="https://cdn0.fahasa.com/media/catalog/product/p/h/ph_c-h_a-ch_n-dung-k_-ph_m-t_i.jpg" alt="">
+                                    <br><br><br>
+                                        <div class="center">
+                                          <h1 class="blue_text">Phác Họa Chân Dung Kẻ Phạm Tội<br></h1>
+                                          <span class="red_text">87.000 đ &nbsp; <sub> -40%</sub></span>
+                                          <p><del>145.000 đ</del></p>
+                                          <p class="gold_text">0.0
+                                              <img style="width: 10px; height:10px;" src="/images/star.png" alt="">
+                                              <span class="normal_text">(0)</span>
+                                            </p>
+                                          <button type="submit" class="btn-submit-2 color-2">Buy</button>
+                                        </div>
+                                </div> 
+                                <div class="col-12 col-sm-6 col-md-3 big_box_mid" style ="width:300px;">
+                                    <img src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_230370.jpg" alt="">
+                                    <br><br><br>
+                                        <div class="center">
+                                          <h1 class="blue_text">Kẻ Xuất Chúng<br></h1>
+                                          <br><br><br><br>
+                                          <span class="red_text">127.000 đ &nbsp; <sub> -20%</sub></span>
+                                          <p><del>150.000 đ</del></p>
+                                          <p class="gold_text">3.6
+                                              <img style="width: 10px; height:10px;" src="/images/star.png" alt="">
+                                          </p>
+                                          <span class="normal_text">(0)</span>
+                                          <button type="submit" class="btn-submit-2 color-2">Buy</button>
+                                        </div>
+                                </div> 
+                                <div class="col-12 col-sm-6 col-md-3 big_box_mid" style ="width:300px;">
+                                    <img src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_226795.jpg" alt="">
+        
+                                        <div class="center">
+                                          <h1 class="blue_text">Quản Trị Doanh Nghiệp Trong Thời Đại Mới<br></h1>
+        
+                                          <span class="red_text">52.000 đ &nbsp; <sub> -20%</sub></span>
+                                          <p><del>65.000 đ</del></p>
+                                          <p class="gold_text">3.6
+                                              <img style="width: 10px; height:10px;" src="/images/star.png" alt="">
+                                          </p>
+                                          <span class="normal_text">(0)</span>
+        
+                                          <button type="submit" class="btn-submit-2 color-2">Buy</button>
+                                        </div>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="col ">
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-md-3 big_box_mid" style ="width:300px;">
+                                    <img src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_237646.jpg" alt="">
+                                    
+                                        <div class="center">
+                                          <h1 class="blue_text">Súc Mạnh Tiềm Thức<br></h1>
+                                          <br><br>
+                                          <span class="red_text">89.000 đ &nbsp; <sub> -30%</sub></span>
+                                          <p><del>128.000 đ</del></p>
+                                          <p class="gold_text">3.6
+                                              <img style="width: 10px; height:10px;" src="/images/star.png" alt="">
+                                              <span class="normal_text">(0)</span>
+        
+                                            </p>
+                                          <button type="submit" class="btn-submit-2 color-2">Buy</button>
+                                        </div>
+                                </div> 
+                                <div class="col-12 col-sm-6 col-md-3 big_box_mid" style ="width:300px;">
+                                    <img src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_239651.jpg" alt="">
+        
+                                        <div class="center">
+                                          <h1 class="blue_text">Tuổi Trẻ Đáng Giá Bao Nhiêu<br></h1>
+                                          <br><br>
+                                          <span class="red_text">54.000 đ &nbsp; <sub> -40%</sub></span>
+                                          <p><del>90.000 đ</del></p>
+                                          <p class="gold_text">4.6
+                                              <img style="width: 10px; height:10px;" src="/images/star.png" alt="">
+                                              <span class="normal_text">(5)</span>
+        
+                                            </p>
+                                          <button type="submit" class="btn-submit-2 color-2">Buy</button>
+                                        </div>
+                                </div> 
+                                <div class="col-12 col-sm-6 col-md-3 big_box_mid" style ="width:300px;">
+                                    <img src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_41914.jpg" alt="">
+        
+                                        <div class="center">
+                                          <h1 class="blue_text">Người Giàu Nhất Thành Babylon<br></h1>
+                                          <span class="red_text">58.000 đ &nbsp; <sub> -20%</sub></span>
+                                          <p><del>98.000 đ</del></p>
+                                          <p class="gold_text">4.6
+                                              <img style="width: 10px; height:10px;" src="/images/star.png" alt="">
+                                              <span class="normal_text">(6)</span>
+        
+                                            </p>
+                                          <button type="submit" class="btn-submit-2 color-2">Buy</button>
+                                        </div>
+                                </div> 
+                                <div class="col-12 col-sm-6 col-md-3 big_box_mid" style ="width:300px;">
+                                    <img src="https://cdn0.fahasa.com/media/catalog/product/8/9/8935236413565.jpg" alt="">
+        
+                                        <div class="center">
+                                          <h1 class="blue_text">Sherlock Holmes<br></h1>
+                                          <br><br>
+                                          <span class="red_text">240.000 đ &nbsp; <sub> -20%</sub></span>
+                                          <p><del>300.000 đ </del></p>
+                                          <p class="gold_text">4.6
+                                              <img style="width: 10px; height:10px;" src="/images/star.png" alt="">
+                                              <span class="normal_text">(12)</span>
+        
+                                            </p>
+                                          <button type="submit" class="btn-submit-2 color-2">Buy</button>
+                                        </div>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="col ">
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-md-3 big_box_mid" style ="width:300px;">
+                                    <img src="https://cdn0.fahasa.com/media/catalog/product/8/9/8936203361896_1.jpg" alt="">
+        
+                                        <div class="center">
+                                          <h1 class="blue_text">Bố Già<br></h1>
+                                          <br><br>
+                                          <span class="red_text">120.000 đ &nbsp; <sub> -20%</sub></span>
+                                          <p><del>150.000 đ</del></p>
+                                          <p class="gold_text">4.4
+                                              <img style="width: 10px; height:10px;" src="/images/star.png" alt="">
+                                              <span class="normal_text">(0)</span>
+        
+                                            </p>
+                                          <button type="submit" class="btn-submit-2 color-2">Buy</button>
+                                        </div>
+                                </div> 
+                                <div class="col-12 col-sm-6 col-md-3 big_box_mid" style ="width:300px;">
+                                    <img src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_14861.jpg" alt="">
+        
+                                        <div class="center">
+                                          <h1 class="blue_text">Chúa Tể Những Chiếc Nhẫn<br></h1>
+                                          <span class="red_text">128.000 đ &nbsp; <sub> -20%</sub></span>
+                                          <p><del>160.000 đ</del></p>
+                                          <p class="gold_text">4.6
+                                              <img style="width: 10px; height:10px;" src="/images/star.png" alt="">
+                                              <span class="normal_text">(5)</span>
+        
+                                            </p>
+                                          <button type="submit" class="btn-submit-2 color-2">Buy</button>
+                                        </div>
+                                </div> 
+                                <div class="col-12 col-sm-6 col-md-3 big_box_mid" style ="width:300px;">
+                                    <img src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_5336.jpg" alt="">
+        
+                                        <div class="center">
+                                          <h1 class="blue_text">Trò Chơi Vương Quyền<br></h1>
+                                          <span class="red_text">159.000 đ &nbsp; <sub> -20%</sub></span>
+                                          <p><del>199.000 đ</del></p>
+                                          <p class="gold_text">4.6
+                                              <img style="width: 10px; height:10px;" src="/images/star.png" alt="">
+                                              <span class="normal_text">(6)</span>
+        
+                                            </p>
+                                          <button type="submit" class="btn-submit-2 color-2">Buy</button>
+                                        </div>
+                                </div> 
+                                <div class="col-12 col-sm-6 col-md-3 big_box_mid" style ="width:300px;">
+                                    <img src="https://cdn0.fahasa.com/media/catalog/product/8/9/8935236428514.jpg" alt="">
+        
+                                        <div class="center">
+                                          <h1 class="blue_text">Đồi Gió Hú<br></h1>
+                                          <br><br>
+                                          <span class="red_text">120.000 đ &nbsp; <sub> -20%</sub></span>
+                                          <p><del>128.000 đ</del></p>
+                                          <p class="gold_text">4.0
+                                              <img style="width: 10px; height:10px;" src="/images/star.png" alt="">
+                                              <span class="normal_text">(3)</span>
+        
+                                            </p>
+                                          <button type="submit" class="btn-submit-2 color-2">Buy</button>
+                                        </div>
+                                </div> 
+                            </div>
+                        
+                    </div>
+                    </div>
+                    </div>
+                    <div class="row BodyArea" style="margin-top:30px;">
+                        <h1 style ="color:white;
+                        font-weight: bold;
+                        text-align:center;
+                        line-height:20px;">
+                        Best Book In This Month 
+                        </h1>
+                        <br><br>
+                        <div class="col-12 col-sm-6 col-md-4 big_box_mid2"style="width:410px;">
+                            <img src="https://cdn0.fahasa.com/media/catalog/product/t/a/tam_qu_c_di_n_ngh_a_6_t_p_t_i_b_n_-_3d_h_p.jpg" alt="">
+        
+                            <div class="center">
+                              <h1 class="blue_text">Tam Quốc Diễn Nghĩa<br>(Trọn Bộ 13 tập)</h1>
+                              
+                              <span class="red_text">432.000 đ &nbsp; <sub> -20%</sub></span>
+                              <p><del>390.000 đ</del></p>
+                              <p class="gold_text">5.0
+                                  <img style="width: 10px; height:10px;" src="/images/star.png" alt="">
+                                  <span class="normal_text">(7)</span>
+                                </p>
+                              <button type="submit" class="btn-submit-2 color-2" >Buy</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 big_box_mid2" style="width:410px;">
+                            <img src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_185382.jpg" alt="">
+        
+                            <div class="center">
+                              <h1 class="blue_text">Thủy Hử<br>(Hộp 26 cuốn)</h1>
+                              <br><br>
+                              <span class="red_text">375.000đ &nbsp; <sub> -20%</sub></span>
+                              <p><del>469.000 đ</del></p>
+                              <p class="gold_text">5.0
+                                  <img style="width: 10px; height:10px;" src="/images/star.png" alt="">
+                                  <span class="normal_text">(13)</span>
+                                </p>
+                              <button type="submit" class="btn-submit-2 color-2">Buy</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 big_box_mid2" style="width:410px;">
+                            <img src="https://cdn0.fahasa.com/media/catalog/product/8/9/8935212355049.jpg" alt="">
+        
+                            <div class="center">
+                              <h1 class="blue_text">Cuốn theo chiều gió<br>(Bộ 2 tập)</h1>
+                              <br><br>
+                              <span class="red_text">558.400 đ &nbsp; <sub> -20%</sub></span>
+                              <p><del>698.000 đ</del></p>
+                              <p class="gold_text">5.0
+                                  <img style="width: 10px; height:10px;" src="/images/star.png" alt="">
+                                  <span class="normal_text">(15)</span>
+                                </p>
+                              <button type="submit" class="btn-submit-2 color-2">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+        
+                 
+                    </div>
+                    <footer class="row">
+                        <br>
+                        <div class="col">
+                            YOU CAN FIND US AT<br><br>
+                            <div class="row row_icon " style="display:flex;	justify-content: space-evenly;">
+                                <div class="col-5 col-sm-5 col-md-2 col_icon" style="margin:10px;">
+                                    <a href="https://www.facebook.com/profile.php?id=100030577703653">
+                                        <i class="fab fa-facebook"></i>
+                                      </a>
+                                </div>
+                                <div class="col-5 col-sm-5 col-md-2 col_icon"style="margin:10px;">
+                                    <a href="https://www.instagram.com/nuye_in/">
+                                        <i class="fab fa-instagram"></i>
+                                      </a>
+                                </div>
+                                <div class="col-5 col-sm-5 col-md-2 col_icon"style="margin:10px;">
+                                    <a href="https://twitter.com/NguyenY21">
+                                        <i class="fab fa-twitter"></i>
+                                      </a>
+                                </div>
+                                <div class="col-5 col-sm-5 col-md-2 col_icon"style="margin:10px;">
+                                    <a href="https://www.youtube.com/channel/UCrDs81razTIqtY4M9eq1nUQ">
+                                        <i class="fab fa-youtube"></i>
+                                      </a> 
+                                </div>
+                            </div>
+                            </div>  
+                    <div class="row" style="margin-left:30px; display:flex;	justify-content: space-evenly;">
+                        <div class="col-5 col-sm-5 col-md-2">
+                            <div class="row">
+                                <div class="col"><br>
+                                    Product
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text">
+                                    <a href="">Create Websites</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text">
+                                   <a href="">Secure Cloud Hosting</a> 
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text">
+                                    <a href="">Engage Your Audience</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text">
+                                    <a href="">Website Support</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5 col-sm-5 col-md-2">
+                            <div class="row">
+                                <div class="col"> <br>
+                                    Company
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text">
+                                    <a href="">About</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text">
+                                    <a href="">Carres</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text">
+                                    <a href="">Support</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text">
+                                    <a href="">Pricing</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text">
+                                    <a href="">FAQ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5 col-sm-5 col-md-2">
+                            <div class="row">
+                                <div class="col"><br>
+                                   Resources
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text">
+                                    <a href="">Blog</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text">
+                                    <a href="">eBooks</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text">
+                                    <a href="">Whitepapers</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text">
+                                    <a href="">Comparison Guide</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text">
+                                    <a href="">Website Grader</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5 col-sm-5 col-md-2">
+                            <div class="row">
+                                <div class="col"><br>
+                                    Get Help
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text">
+                                    <a href="">Help Center</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text">
+                                    <a href="">Contact Us</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text">
+                                    <a href="">Privacy Policy</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text">
+                                    <a href="">Terms</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text">
+                                    <a href="">Login</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <br>
+                            Nguyễn Bùi Nhựt Ý - 
+                            Dh52006931 - 
+                            D20_TH11 <br>
+                        </div>
+                       
+                    </footer>
+                    </div>
+                
+            
+ 
+        <div class="contact">
+        <a href="https://chat.zalo.me/"class="contact_img"><img style="width:50px;height:50px" src="/images/icons8-zalo-48.png" alt=""></a><br>
+        <a href="/templates/contact.html"class="contact_img"><img style="width:40px;height:40px" src="/images/whatsapp.png" alt=""></a><br>
+        <a href="https://www.messenger.com/"class="contact_img"><img style="width:40px;height:40px" src="/images/messenger.png" alt=""></a>
+        </div>
+
+</body>
+</html>

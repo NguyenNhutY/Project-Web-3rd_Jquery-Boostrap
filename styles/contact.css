@@ -1,0 +1,115 @@
+
+/* CSS Document */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body
+{
+	background:linear-gradient(120deg,#3ca7ee,#9b408f);
+	background-position:top;
+	background-repeat:no-repeat;
+    height:100vh;
+    font-family:'Poppins';
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.container
+{
+    display: inline;
+    justify-content: center;
+    border-radius: 15px;
+	height:min-content;
+    background-color: white;
+    border:none;
+    padding:20px;
+}
+.container form .form-control
+{
+    border-bottom: 2px solid #adadad;
+}
+
+.form-control
+{
+    position:relative;
+    width:50%;
+    display:inline-block ;
+    height:40px;        
+    font-size:16px;
+}
+
+.container h1
+{
+    font-size:36px;
+    margin-bottom:25px;
+    text-align:center;
+}
+
+.container form input[type="submit"]
+{
+    font-size:20px;
+    margin-top: 15px;
+
+}
+
+.container .form-control span
+{
+    position:absolute;
+    border-bottom: 3px solid var(--success-color);
+    left:0;
+    top:38px;
+    width:0%;
+    transition:0.3s;
+}
+.container input:focus ~ span
+{
+    width:100%;
+}
+
+.form-control.error small
+{
+    color:var(--error-color);
+}
+.btn-submit {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-submit:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-submit:focus {
+    outline: none;
+}
+
+.btn-submit.color {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+.btn-submit.color
+{
+    color:white;
+}
+
